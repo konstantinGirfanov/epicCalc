@@ -31,7 +31,6 @@
     <Content Include="css\styles.css" />
     <Content Include="font\FIRESTARTER.TTF" />
     <Content Include="html\index.html" />
-    <Content Include="html\test.html" />
     <Content Include="images\1wtSFp65J7o.jpg" />
     <Content Include="images\back.jpg" />
     <Content Include="images\calc text.png" />

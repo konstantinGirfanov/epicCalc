@@ -68,73 +68,7 @@ span {
     background-color: mediumspringgreen;
 }
 
-.off {
-    display: none;
-}
-
 .alignCenter {
     justify-self: center;
     align-self: center;
 }
-
-/*#test2 {
-    font-size: 2em;
-    color: red;
-    opacity: 1;*/
-    /*font-family: "Jacquarda Bastarda 9";*/
-    /*font-family: "Jacquarda Bastarda 9";
-    font-weight: 900;
-    text-transform: capitalize;
-    text-decoration: underline;
-    letter-spacing: 5px;
-}
-
-.ruText {
-    font-size: 20px;
-    color: red;
-    opacity: 1;
-    font-family: "Times New Roman";
-    font-weight: 900;
-    text-transform: capitalize;
-    text-decoration: underline;
-    letter-spacing: 10px;
-    word-spacing: 50px;
-    text-shadow: 3px -5px 1px purple;
-}
-
-
-
-p {
-    color: blue !important;
-}
-p{
-    color: yellow !important;
-}
-
-
-
-::selection{
-    background-color:black;
-    color: white;
-}
-
-
-#test :checked+span {
-    color:crimson;
-}
-
-input[type*=checkbox]::after{
-    background-color:coral;
-    content:"amogus";
-}
-
-
-button:hover, .aboba:hover, .hTest:hover {
-    background-color: darkred;
-    border: solid;
-}
-
-button:active, .aboba:active, .hTest:active {
-    background-color: blue;
-    border: solid;
-}*/
