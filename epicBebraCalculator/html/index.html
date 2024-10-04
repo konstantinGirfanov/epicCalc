@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<head>
+    <link rel="stylesheet" type="text/css" href="../css/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jacquarda+Bastarda+9&display=swap" rel="stylesheet">
+</head>
+<body>
+    <script src="../js/script.js"></script>
+    <div id="calc">
+        <div id="buttons">
+            <p class="alignCenter">EPIC BEBRA CALCULATOR</p>
+            <img src="../images/calc text.png" width="500" height="40" class="alignCenter"/>
+
+            <div class="buttons">
+                <button accesskey="7">7</button>
+                <button accesskey="8">8</button>
+                <button accesskey="9">9</button>
+                <button onclick="OnClickDelete()" accesskey="backpace">←</button>
+                <button onclick="OnClickClear()" accesskey="c">C</button>
+            </div>
+            <div class="buttons">
+                <button accesskey="4">4</button>
+                <button accesskey="5">5</button>
+                <button accesskey="6">6</button>
+                <button onclick="OnClickMultiply()" accesskey="*">*</button>
+                <button onclick="OnClickDivide()" accesskey="/">/</button>
+            </div>
+            <div class="buttons">
+                <button accesskey="1">1</button>
+                <button accesskey="2">2</button>
+                <button accesskey="3">3</button>
+                <button onclick="OnClickPlus()" accesskey="+">+</button>
+                <button onclick="OnClickMinus()" accesskey="-">-</button>
+            </div>
+            <div class="buttons">
+                <button class="off"></button>
+                <button onclick="OnClickEqual()" accesskey="=">=</button>
+                <button class="off"></button>
+                <button onclick="OnClick0()" accesskey="0">0</button>
+                <button onclick="OnClickDot()" accesskey=".">.</button>
+                <button onclick="OnClickRemain()">%</button>
+                <button onclick="OnClickPower()">^</button>
+            </div>
+            <div style="overflow-x: auto; width:600px; display: grid;" id="divInput">
+                <span id="input" class="alignCenter">0</span>
+            </div>
+        </div>
+    </div>
+</body>

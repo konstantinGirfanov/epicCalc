@@ -1,0 +1,140 @@
+@font-face {
+    font-family: fire;
+    src: url("../font/FIRESTARTER.TTF");
+}
+
+body {
+    margin: 0;
+}
+
+#calc{
+    background: url(../images/ss.jpg);
+    background-size: 100% 100%;
+    height: 776px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+p {
+    font-family: fire;
+    font-size: 30px;
+    word-spacing: 35px;
+    color: orange;
+}
+
+span {
+    font-family: 'Times New Roman';
+    font-size: 30px;
+    word-spacing: 35px;
+}
+
+#calc > div {
+    margin-left: 50px;
+}
+
+#buttons {
+    background-color: firebrick;
+    border-radius: 20%;
+    display: grid;
+}
+
+.buttons button {
+    margin: 25px;
+    background-color: aqua;
+    border: none;
+    border-radius: 20%;
+    width: 50px;
+    height: 40px;
+    box-shadow: 2px 3px rgba(0, 0, 0, 0.6);
+    font-size: 25px;
+}
+
+.buttons {
+    margin-left: auto;
+    margin-right: auto;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.buttons button:hover {
+    background-color: blue;
+}
+
+.buttons button:active {
+    background-color: mediumspringgreen;
+}
+
+.off {
+    display: none;
+}
+
+.alignCenter {
+    justify-self: center;
+    align-self: center;
+}
+
+/*#test2 {
+    font-size: 2em;
+    color: red;
+    opacity: 1;*/
+    /*font-family: "Jacquarda Bastarda 9";*/
+    /*font-family: "Jacquarda Bastarda 9";
+    font-weight: 900;
+    text-transform: capitalize;
+    text-decoration: underline;
+    letter-spacing: 5px;
+}
+
+.ruText {
+    font-size: 20px;
+    color: red;
+    opacity: 1;
+    font-family: "Times New Roman";
+    font-weight: 900;
+    text-transform: capitalize;
+    text-decoration: underline;
+    letter-spacing: 10px;
+    word-spacing: 50px;
+    text-shadow: 3px -5px 1px purple;
+}
+
+
+
+p {
+    color: blue !important;
+}
+p{
+    color: yellow !important;
+}
+
+
+
+::selection{
+    background-color:black;
+    color: white;
+}
+
+
+#test :checked+span {
+    color:crimson;
+}
+
+input[type*=checkbox]::after{
+    background-color:coral;
+    content:"amogus";
+}
+
+
+button:hover, .aboba:hover, .hTest:hover {
+    background-color: darkred;
+    border: solid;
+}
+
+button:active, .aboba:active, .hTest:active {
+    background-color: blue;
+    border: solid;
+}*/
